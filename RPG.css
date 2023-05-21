@@ -1,0 +1,14 @@
+img {
+    height: 550px;
+    width: 100%;
+    
+}
+p {
+    text-align: center;
+    font-size: 100px;
+position: absolute;
+left: 3%;
+    color: #FFFF;
+    font-family: 'Sigmar';
+    text-shadow: 10x 2x 10x #f80404;
+}
