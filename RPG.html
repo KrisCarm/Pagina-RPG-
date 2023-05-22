@@ -5,39 +5,57 @@
     <header class="header"></header>
     
 
+
 </head>
 
 <body>
     <p>RPG</p>
-    <img src="C:\Users\Kris\Desktop\Programação\RPG.jpg" alt="Descrição da imagem"> 
+    <img src="https://www.sescpr.com.br/wp-content/uploads/2022/12/para-que-servem-os-dados-de-rpg-de-mesa-1-.jpg" alt="Descrição da imagem"> 
     <b></b>
     <h1> Começo das Aventuras </h1>
+    <fieldset> 
+        <label>
+        <h2>Continue sua aventura</h2>
     
+        <form action="formulario.html" target="_blank" method="GET">
+            Nick:
+            <input type="text" name="usuario" required minlength="4" />   
+            <br></br>
+            Senha:
+            <input type="password" required />
+        <br></br>
+    </fieldset>
+            <button> Iniciar Aventura</button>
     
-    <h2>Continue sua aventura</h2>
-    <form action="formulario.html" target="_blank" method="GET">
-            Nick de Login
-            <input type="text" name="usuario" />
-        <br></br>
-            Senha
-            <input type="password"/>
-        <br></br>
-            <input type="submit" value="Iniciar aventura" />
+        </label> 
+    <label>
+        </form>
+        <h2>Crie seu personagem:</h2>
+        <form action="formulario.html" target="_blank" method="GET">
+            Nome do Personagem: 
+            <br></br>
+            <input type="text" name="usuario"/>
+            <br></br>
+        </form>
+                Raça: 
+                <br></br>
+            <select name="Raças de Criaturas" class="classe"> 
+                    <option>guerreiro</option>
+                    <option>Mago</option>
+                    <option> Anão</option>
+                    <option>Elfo</option>
+                    <option>Dark Elfo</option>
+            </select>
+    </label>      
 
 
     </form>
-    <h2>Crie seu personagem</h2>
-    <form>
-            <form action="formulario.html" target="_blank" method="GET">
-                Nome do Personagem 
-                <br></br>
-                <input type="text" name="usuario"/>
-                <br></br>
-                Raça 
-                <br></br>
-                <input type="text" name="usuario"/>
-
-
-    </form>
-
+        <br></br>
+        Historia do personagem
+</br>
+    <textarea name="Historia do personagem"></textarea>
+</br>
+<input type="button" value="Criar">
+    <img class="ficha" src="https://i.pinimg.com/564x/53/c3/6c/53c36c1df1664ad422789cdf7aacb72b.jpg"/>
+    <img class="dados" src="https://pa1.narvii.com/8162/479df0f08821d5e023cfb189b9398dddc240824cr1-256-256_00.gif"/>
 </body>

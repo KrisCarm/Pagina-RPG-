@@ -1,3 +1,7 @@
+body {
+    background-color: #e09e72;
+}
+
 img {
     height: 550px;
     width: 100%;
@@ -11,4 +15,61 @@ left: 3%;
     color: #FFFF;
     font-family: 'Sigmar';
     text-shadow: 10x 2x 10x #f80404;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+input, select {
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid #d8712c;
+    border-radius: 5px ;
+    
+}
+textarea {
+    width: 500px;
+    height: 100px;
+    resize: none;
+}
+.classe {
+    color: #000000;
+    border-color: #000000;
+}
+.inicio {
+    justify-content: end;
+}
+
+button {
+    position: absolute;
+    top: 265px;
+    left: 1130px;
+}
+
+button:hover {
+    background-color: aqua;
+    
+}
+fieldset {
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    background-color: azure;
+    border-radius: 30px;
+}
+.ficha {
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    border-radius: 30px;
+}
+.dados {
+    width: 200px;
+    height: 190px;
+    position: absolute;
+    top: 350px;
+    left: 1000px
 }
